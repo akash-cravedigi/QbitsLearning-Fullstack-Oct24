@@ -1,0 +1,201 @@
+<!-- comment tag-->
+
+
+<!DOCTYPE html>   
+<html>
+    <head>
+        <title>First Webpage</title>
+        <link href="">
+        <script></script>
+        <meta name="author" content="Akash Soni" />
+        <meta name="keywords" content="first, website, qbits" />
+        <meta name="description" content="Lorem Ipsum" />
+        <meta http-equiv="refresh" content="500" >
+    </head>
+    <body>
+        <!-- basic tags -->
+            Text written directly inside body tag
+            <p>Text inside paragraph tag</p><p>Text inside paragraph tag</p>
+            <div>Text inside div tag</div><div>Text inside div tag</div>
+            <span>Text inside span tag</span><span>Text inside span tag</span>
+
+            <a href="./../hello.txt" target="_blank" download >Google</a>
+
+            <p>
+                Hi my name is John doe. <br>Im studying web dev.
+            </p>
+            <hr>
+
+        <!-- formatting tags -->
+            <b>Hello</b><i> World</i><u></u>
+            <strong>Hello</strong><em> World</em><ins></ins>
+
+            <br><br>
+            2<sup>2</sup><br>
+            d<sub>x</sub>=23
+
+            <marquee direction="right" style="padding: 20px;"><center><mark>HTML</mark> stands for <span style="color: red;">Hypertext <del>Marking</del> <ins>Markup</ins> </span>Language</center></marquee>
+
+        <!-- semantic tags -->
+            <header></header>
+            <footer></footer>
+            <section></section>
+            <main></main>
+            <aside></aside>
+            <nav></nav>
+            <time></time>
+        
+        <!-- multimedia tags -->
+            <img src="" alt="" />
+            <audio controls>
+                <source src="./sample-3s (2).mp3" />
+            </audio>
+            <video controls height="315">
+                <source src="./sample-5s (2).mp4" />
+            </video>
+            <embed width="560" height="315" src="https://www.youtube.com/embed/aOTu0-aSLt8?si=FtKPmjnyN1YsxhVR" >
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/aOTu0-aSLt8?si=FtKPmjnyN1YsxhVR" title="Embedded Video" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+        <!-- list tags -->
+            <ul type="square">
+                <li>List Item</li>
+                <li>List Item</li>
+                <li>List Item</li>
+                <li>List Item</li>
+                <li>List Item</li>
+                <li>List Item</li>
+            </ul>
+            <ol type="i">
+                <li>List Item</li>
+                <li>List Item</li>
+                <li>List Item</li>
+                <li>List Item</li>
+                <li>List Item</li>
+                <li>List Item</li>
+            </ol>
+
+            <dl>
+                <dt>HTML</dt>
+                <dd>HTML stands for hypertext markup language</dd>
+            </dl>
+
+        <!-- heading tags -->
+            <h1>Heading Tag 1</h1>
+            <h2>Heading Tag 2</h2>
+            <h3>Heading Tag 3</h3>
+            <h4>Heading Tag 4</h4>
+            <h5>Heading Tag 5</h5>
+            <h6>Heading Tag 6</h6>
+
+        <!-- table tags -->
+            <style>
+                table, td {
+                    border: 2px;
+                    border-color: blueviolet;
+                    border-style: dashed;
+                }
+                th {
+                    border: 3px solid red;
+                }
+            </style>
+            <table>
+                <caption>Student Information</caption>
+                <colgroup>
+                    <col />
+                    <col span="2" style="background-color: rgb(178, 232, 208);" />
+                </colgroup>
+                <tr>
+                    <th colspan="2">Student Name</th>
+                    <th rowspan="2">Email ID</th>
+                    <th rowspan="2">Phone No.</th>
+                </tr>
+                <tr>
+                    <th>First Name</th>
+                    <th>Last Name</th>
+                </tr>
+                <tr>
+                    <td>Akash</td>
+                    <td>Soni</td>
+                    <td>akash@gmail.com</td>
+                    <td>5454353456</td>
+                </tr>
+                <tr>
+                    <td>Nihal</td>
+                    <td>Singh</td>
+                    <td>nihalsinghrao@gmail.com</td>
+                    <td>5454353456</td>
+                </tr>
+                <tr>
+                    <td>Anjali</td>
+                    <td>Dangi</td>
+                    <td>anjali@gmail.com</td>
+                    <td>5454353456</td>
+                </tr>
+                <tr>
+                    <td>Lavisha</td>
+                    <td>Gupta</td>
+                    <td>lavisha@gmail.com</td>
+                    <td>5454353456</td>
+                </tr>
+            </table>
+        
+            <br><br><br>
+        <!-- form tags -->
+        <form method="post" action="login.html">
+            <label>Email Address:</label>
+            <input id="" name="email" type="email" />
+            <br>
+            <label>Password</label>
+            <input name="pwd" type="password" />
+            <br>
+            <button type="submit">Login</button>
+        </form>
+
+        <form method="get">
+            <select>
+                <option>--select--</option>
+                <option>BMW</option>
+                <option>Audi</option>
+                <option>Ferrari</option>
+            </select>
+
+            <input class="textbox" type="text" required />
+            <input class="textbox" type="email" />
+            <input class="textbox" type="number" />
+            <input class="textbox" type="tel" name="" id="">
+            <input class="textbox" type="password" name="" id="">
+            <input class="textbox" type="url" name="" id="">
+
+            <input type="date" name="date" />
+            <input type="datetime"/>
+            <input type="datetime-local" name="dtlocal" />
+            <input type="month" name="month" />
+            <input type="week" name="week" id="">
+            <input type="time" name="time" />
+
+            <input type="file" />
+            <input type="color" name="color" />
+            <input type="range" min="0" max="100" name="range" />
+
+            <input type="checkbox" name="chk1"><label>CHK1</label>
+            <input type="checkbox" name="chk2"><label>CHK1</label>
+            <input type="checkbox" name="chk3"><label>CHK1</label>
+            <input type="checkbox" name="chk4"><label>CHK1</label>
+
+            <input type="radio" name="gender" value="M"><label>Male</label>
+            <input type="radio" name="gender" value="F"><label>Female</label>
+            <input type="radio" name="gender" value="O"><label>Others</label>
+        
+            <input type="submit" value="Submit" />
+            <input type="button" value="click" />
+            <input type="reset" value="reset" />
+            <input type="image" src="./1666192495660.png"/>
+            <button type="submit">Submit</button>
+            <button type="menu">Menu button</button>
+            <button type="button">Button</button>
+            <button type="reset">Reset</button>
+
+            <textarea rows="10" cols="50"></textarea>
+        </form>
+    </body>
+</html>
